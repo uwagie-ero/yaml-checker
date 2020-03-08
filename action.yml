@@ -1,13 +1,14 @@
 ---
 name: Yaml-Checker
-description: 'This GitHub action automatically checks your code for errors in YAML files when a pull request comes or the code is pushed'
+description: 'This GitHub action automatically checks your code for errors,
+              in YAML files when a pull request comes or the code is pushed'
 author: 'leon-th'
 branding:
   icon: 'check-circle'
   color: 'blue'
 on:
-  - push
-  - pull_request
+  - "push"
+  - "pull_request"
 jobs:
   build:
     runs-on: ubuntu-latest
