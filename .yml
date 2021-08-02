@@ -1,0 +1,2 @@
+- name: Yaml-Checker
+  uses: leon-th/yaml-checker@v1.0.0
